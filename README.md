@@ -1,42 +1,41 @@
-<h1 align="center">State Machines con React.js</h1>
+# Travel Destination Selection Website
 
-<div align="left">
-   Proyecto creado durante el curso 
-   <a href="https://platzi.com/cursos/react-state-machines/">State Machines con React.js</a> de Platzi.
-   El proyecto consiste en usar máquinas de estado con Xstate para crear el paso a paso de la compra 
-   de vuelos. Cada paso de la compra es un estado diferente que va de inicio a fin del flujo y vuelve a comenzar. Al final del curso decidí mejorar un poco la interfaz, también agregue 2 nuevos inputs a completar, que son las fechas de ida y vuelta.
-</div>
+This project is a website designed to streamline the process of selecting a travel destination and purchasing flight tickets. It utilizes state machines with XState to create a step-by-step guide through the flight purchasing process. Each step of the purchase is represented by a different state, guiding the user from the beginning to the end of the flow and looping back to the beginning.
 
-<!-- TABLE OF CONTENTS -->
+## Technologies Used
+ React: Used as the primary JavaScript library for building the user interface.
+ Vite: Used as the build tool to set up a fast development environment.
+ XState: Utilized to manage state machines, controlling the flow of the purchase process.
 
-## Table of Contents
+## Getting Started
 
-- [Built With](#built-with)
-- [How to use](#how-to-use)
+### Prerequisites
 
-<!-- OVERVIEW -->
+Before you begin, ensure you have met the following requirements:
 
-### Built With
+Node.js installed on your local machine.
+npm or Yarn package manager installed.
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+## Installation
 
-- React
-- Vite
-- Xstate
+1. Clone the repository:
+git clone https://github.com/juanjua1/Travel-Destination
 
-## How To Use
+2. Navigate into the project directory:
+cd travel-destination-selection
 
-<!-- Example: -->
+3. Install dependencies using npm or Yarn:
+npm install
+   
+## Development
+To start the development server, run:
+npm run dev
 
-To clone and run this application, you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+This command will start a development server, and you can view the website at http://localhost:3000.
 
-```bash
-# Clone this repository
-$ git clone https://github.com/your-user-name/your-project-name
+## Usage
+Once the development server is running, you can access the website through your browser. Users will be guided through the step-by-step process of selecting a travel destination and purchasing flight tickets.
 
-# Install dependencies
-$ npm install
+## License
 
-# Run the app
-$ npm start
-```
+This project is licensed under the MIT License
