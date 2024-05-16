@@ -1,0 +1,30 @@
+.Passengers {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Passengers input {
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.Passengers-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  width: 100%;
+}
+
+.Passengers-title {
+  margin-bottom: 16px;
+}
+.Passengers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}

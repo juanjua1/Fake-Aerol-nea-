@@ -1,0 +1,49 @@
+.Tickets {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Tickets-description {
+  text-align: center;
+}
+.Tickets-finalizar {
+  margin-left: auto;
+}
+
+.Tickets-ticket {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(151, 149, 240, 0.5);
+  border: 1px dashed #4F54A7;
+  border-radius: 5px;
+}
+
+.Tickets-title {
+  background-color: white;
+  padding: 10px 16px;;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.Tickets-info {
+  padding: 16px;
+  font-size: 1rem; 
+  border-bottom: 1px dashed #4F54A7;;
+}
+.Tickets-country {
+  display: flex;
+  align-items: center;
+}
+.Tickets-country .Tickets-icon {
+  font-size: 1.5rem;
+  margin-right: 5px;
+  font-weight: bold;
+}
+.Tickets-country .Tickets-icon.back {
+  transform: rotate(180deg);
+}
+
+.Tickets-passengers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}

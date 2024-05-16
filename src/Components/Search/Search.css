@@ -1,0 +1,35 @@
+.Search {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Search-select {
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+}
+
+.Search-date {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Search-date-travel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.Search-date-travel input {
+  font-size: 1rem;
+  border-radius: 8px;
+  padding: 8px;
+  border: none;
+}
+
+.Search-continue {
+  margin-left: auto;
+}

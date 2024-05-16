@@ -1,0 +1,12 @@
+.Welcome {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.Welcome-title.title {
+  text-align: center;
+}
+
+.Welcome-start {
+  margin-left: auto;
+}
