@@ -26,12 +26,6 @@ cd travel-destination-selection
 
 3. Install dependencies using npm or Yarn:
 npm install
-   
-## Development
-To start the development server, run:
-npm run dev
-
-This command will start a development server, and you can view the website at http://localhost:3000.
 
 ## Usage
 Once the development server is running, you can access the website through your browser. Users will be guided through the step-by-step process of selecting a travel destination and purchasing flight tickets.
