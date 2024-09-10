@@ -16,20 +16,3 @@ Before you begin, ensure you have met the following requirements:
 Node.js installed on your local machine.
 npm or Yarn package manager installed.
 
-## Installation
-
-1. Clone the repository:
-git clone https://github.com/juanjua1/Travel-Destination
-
-2. Navigate into the project directory:
-cd travel-destination-selection
-
-3. Install dependencies using npm or Yarn:
-npm install
-
-## Usage
-Once the development server is running, you can access the website through your browser. Users will be guided through the step-by-step process of selecting a travel destination and purchasing flight tickets.
-
-## License
-
-This project is licensed under the MIT License
